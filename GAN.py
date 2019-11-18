@@ -3,6 +3,12 @@ from tensorflow.keras.layers import LeakyReLU, Reshape, Conv2DTranspose, Conv2D
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import MaxPooling2D, Dropout, Dense, Flatten, BatchNormalization
 import time
+import matplotlib.pyplot as plt
+import sys
+import os
+import numpy as np
+import warnings
+warnings.filterwarnings('ignore')
 
 
 class GAN(object):
@@ -46,6 +52,20 @@ class GAN(object):
 
     cross_entropy = tf.keras.losses.BinaryCrossentropy(from_logits=True)
 
+    def test_artist(self, seed=43):
+        noise = tf.random.normal([1, 100])
+        generated_image = self.artist(noise, training=False)
+        arr = np.array(generated_image)
+        print(arr.shape)
+        plt.imshow(generated_image[0, :, :, 0], cmap='gray');
+        return arr
+
+
+    def test_critic(self, input):
+        decision = self.critic(input)
+        print(decision)
+
+
     def discriminator_loss(self, real_output, fake_output):
         cross_entropy = tf.keras.losses.BinaryCrossentropy(from_logits=True)
         real_loss = cross_entropy(tf.ones_like(real_output), real_output)
@@ -81,18 +101,38 @@ class GAN(object):
         self.artist_opt.apply_gradients(zip(gradients_of_generator, generator.trainable_variables))
         self.critic_opt.apply_gradients(zip(gradients_of_discriminator, discriminator.trainable_variables))
 
+    def generate_and_save_images(self, model, epoch, test_input):
+        # Notice `training` is set to False.
+        # This is so all layers run in inference mode (batchnorm).
+        predictions = model(test_input, training=False)
+
+        fig = plt.figure(figsize=(4, 4))
+
+        for i in range(predictions.shape[0]):
+            plt.subplot(4, 4, i + 1)
+            plt.imshow(predictions[i, :, :, 0] * 127.5 + 127.5, cmap='gray')
+            plt.axis('off')
+
+        plt.savefig('visualizations/image_at_epoch_{:04d}.png'.format(epoch))
+
     def train(self, dataset, epochs):
+        checkpoint_dir = 'checkpoints/training_checkpoints'
+        checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
+        checkpoint = tf.train.Checkpoint(generator_optimizer=self.artist_opt,
+                                         discriminator_optimizer=self.critic_opt,
+                                         generator=self.artist,
+                                         discriminator=self.critic)
+        noise_dim = 100
+        num_examples_to_generate = 16
+        seed = tf.random.normal([num_examples_to_generate, noise_dim])
         for epoch in range(epochs):
             start = time.time()
-
             for image_batch in dataset:
-                train_step(image_batch)
+                self.train_step(image_batch)
 
             # Produce images for the GIF as we go
-            display.clear_output(wait=True)
-            generate_and_save_images(generator,
-                                     epoch + 1,
-                                     seed)
+            #display.clear_output(wait=True)
+            self.generate_and_save_images(self.artist, epoch + 1, seed)
 
             # Save the model every 15 epochs
             if (epoch + 1) % 15 == 0:
@@ -101,7 +141,5 @@ class GAN(object):
             print('Time for epoch {} is {} sec'.format(epoch + 1, time.time() - start))
 
         # Generate after the final epoch
-        display.clear_output(wait=True)
-        generate_and_save_images(generator,
-                                 epochs,
-                                 seed)
+        #display.clear_output(wait=True)
+        self.generate_and_save_images(self.artist,epochs,seed)
