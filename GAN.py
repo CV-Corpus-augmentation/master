@@ -4,11 +4,26 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import MaxPooling2D, Dropout, Dense, Flatten, BatchNormalization
 import time
 import matplotlib.pyplot as plt
-import sys
 import os
 import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
+
+"""
+TODO:
+Test critic vs cnn at each epoch
+setup the data collection/ retraining
+sort by / attach confidence to each generated img with epoch
+"""
+
+class generated_img(object):
+    def __init__(self, img, epoch, confidence):
+        self.epoch = epoch
+        self.img = img
+        self.confidence = confidence
+
+    def show(self):
+        ...
 
 
 class GAN(object):

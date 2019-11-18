@@ -39,3 +39,4 @@ if __name__ =='__main__':
     joe.test_critic(generated_img)
     joe.train(data, 50)
 
+
