@@ -7,12 +7,13 @@ import os
 from tensorflow.keras.preprocessing.image import DirectoryIterator, ImageDataGenerator
 
 class Data(object):
-    def __init__(self, directory):
+    def __init__(self, gen_directory, rec_directory):
+        print(gen_directory, rec_directory)
         self.target_size = (80, 80)
         self.batch_size = 16
-        self.train_datagen = self.build_train_datagen(directory)
-        self.test_datagen = self.build_test_datagen(directory)
-        self.data_array = self.build_array()
+        self.train_datagen = self.build_train_datagen(rec_directory)
+        self.test_datagen = self.build_test_datagen(rec_directory)
+        self.data_array = self.build_gen_array(gen_directory)
 
 
 
@@ -43,12 +44,26 @@ class Data(object):
         return val_gen
 
 
-    def build_array(self):
-        dataset = np.array(next(self.train_datagen)[0])
-        for x in range(12):
-            t = np.array(next(self.train_datagen)[0])
-            dataset = np.append(dataset, t, axis=0)
+    def build_gen_array(self, directory, num_imgs=150, batch_size=10):
+        print(directory)
+        class_datagen = ImageDataGenerator(
+            rescale=1. / 255,
+            rotation_range=20,
+            width_shift_range=0.2,
+            height_shift_range=0.2,
+            horizontal_flip=True)
 
-        ds2 = dataset[:192].reshape((12, 16, 80, 80, 1))
-        return ds2
+        class_gen = class_datagen.flow_from_directory(directory,
+                                                      target_size=self.target_size, color_mode='grayscale',
+                                                      batch_size=batch_size,
+                                                      class_mode='input')
+        arr = np.array(next(class_gen)[0])
+        for x in range(int(num_imgs/batch_size) - 1):
+            arr = np.append(arr, next(class_gen)[0], axis=0)
+
+        arr = arr.reshape((num_imgs, 1, self.target_size[0], self.target_size[1], 1))
+        return arr
+
+
+
 

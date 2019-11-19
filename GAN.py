@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import os
 import numpy as np
 import warnings
+import pandas as pd
+
 warnings.filterwarnings('ignore')
 
 """
@@ -16,7 +18,12 @@ setup the data collection/ retraining
 sort by / attach confidence to each generated img with epoch
 """
 
+
 class generated_img(object):
+    database = {'IMG':[],
+                'Conf':[],
+                'Epoch':[]}
+
     def __init__(self, img, epoch, confidence):
         self.epoch = epoch
         self.img = img
@@ -24,6 +31,18 @@ class generated_img(object):
 
     def show(self):
         ...
+
+    def save_img(self):
+        ...
+
+    def add_to_database(self):
+        generated_img.database['IMG'].append(self.img)
+        generated_img.database['Conf'].append(self.confidence)
+        generated_img.database['Epoch'].append(self.epoch)
+
+    def save_db(self):
+        df = pd.DataFrame(data = generated_img.database)
+        df.to_csv('Data/generated_imgs/generated_imgs.csv')
 
 
 class GAN(object):
@@ -33,36 +52,35 @@ class GAN(object):
         self.artist_opt = tf.keras.optimizers.Adam(1e-4)
         self.critic_opt = tf.keras.optimizers.Adam(1e-4)
 
-
     def build_artist(self):
         model = Sequential([
-                        Dense((20*20*80), use_bias=False, input_shape=(100,)),
-                        BatchNormalization(),
-                        LeakyReLU(),
-                        Reshape((20,20,80)),
-                        Conv2DTranspose(128, (4,4), use_bias=False, padding = 'same'),
-                        BatchNormalization(),
-                        LeakyReLU(),
-                        Conv2DTranspose(64, (4,4), strides=(2,2), use_bias=False, padding='same'),
-                        BatchNormalization(),
-                        LeakyReLU(),
-                        Conv2DTranspose(1, (4,4), strides=(2,2), use_bias=False, padding='same')
-                        ])
+            Dense((20 * 20 * 80), use_bias=False, input_shape=(100,)),
+            BatchNormalization(),
+            LeakyReLU(),
+            Reshape((20, 20, 80)),
+            Conv2DTranspose(128, (4, 4), use_bias=False, padding='same'),
+            BatchNormalization(),
+            LeakyReLU(),
+            Conv2DTranspose(64, (4, 4), strides=(2, 2), use_bias=False, padding='same'),
+            BatchNormalization(),
+            LeakyReLU(),
+            Conv2DTranspose(1, (4, 4), strides=(2, 2), use_bias=False, padding='same')
+        ])
         return model
 
     def build_critic(self):
         model = Sequential([
-                            Conv2D(32, (5,5), strides=(2,2), padding='same', input_shape=[80,80,1]),
-                            LeakyReLU(),
-                            MaxPooling2D(),
-                            Dropout(.5),
-                            Conv2D(64, (5,5), strides=(2,2), padding='same'),
-                            LeakyReLU(),
-                            Dropout(.3),
-                            Flatten(),
-                            Dense(256, activation='relu'),
-                            Dense(1)
-                            ])
+            Conv2D(32, (5, 5), strides=(2, 2), padding='same', input_shape=[80, 80, 1]),
+            LeakyReLU(),
+            MaxPooling2D(),
+            Dropout(.5),
+            Conv2D(64, (5, 5), strides=(2, 2), padding='same'),
+            LeakyReLU(),
+            Dropout(.3),
+            Flatten(),
+            Dense(256, activation='relu'),
+            Dense(1)
+        ])
         return model
 
     cross_entropy = tf.keras.losses.BinaryCrossentropy(from_logits=True)
@@ -75,11 +93,9 @@ class GAN(object):
         plt.imshow(generated_image[0, :, :, 0], cmap='gray');
         return arr
 
-
     def test_critic(self, input):
         decision = self.critic(input)
         print(decision)
-
 
     def discriminator_loss(self, real_output, fake_output):
         cross_entropy = tf.keras.losses.BinaryCrossentropy(from_logits=True)
@@ -93,7 +109,7 @@ class GAN(object):
         return cross_entropy(tf.ones_like(fake_output), fake_output)
 
     def train_step(self, images):
-        #refactor
+        # refactor
         generator = self.artist
         discriminator = self.critic
         BATCH_SIZE = 16
@@ -120,6 +136,13 @@ class GAN(object):
         # Notice `training` is set to False.
         # This is so all layers run in inference mode (batchnorm).
         predictions = model(test_input, training=False)
+        gen_objects = []
+        for conf, img in zip(self.critic(predictions, training=False), predictions):
+            temp = generated_img(img, epoch, conf)
+            temp.add_to_database()
+
+
+
 
         fig = plt.figure(figsize=(4, 4))
 
@@ -146,7 +169,7 @@ class GAN(object):
                 self.train_step(image_batch)
 
             # Produce images for the GIF as we go
-            #display.clear_output(wait=True)
+            # display.clear_output(wait=True)
             self.generate_and_save_images(self.artist, epoch + 1, seed)
 
             # Save the model every 15 epochs
@@ -156,5 +179,5 @@ class GAN(object):
             print('Time for epoch {} is {} sec'.format(epoch + 1, time.time() - start))
 
         # Generate after the final epoch
-        #display.clear_output(wait=True)
-        self.generate_and_save_images(self.artist,epochs,seed)
+        # display.clear_output(wait=True)
+        self.generate_and_save_images(self.artist, epochs, seed)
