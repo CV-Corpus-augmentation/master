@@ -181,3 +181,4 @@ class GAN(object):
         # Generate after the final epoch
         # display.clear_output(wait=True)
         self.generate_and_save_images(self.artist, epochs, seed)
+        generated_img.save_db()

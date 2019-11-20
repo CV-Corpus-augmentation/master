@@ -5,164 +5,19 @@
       <change afterPath="$PROJECT_DIR$/../.idea/dictionaries/McClain.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Trials/deep-test/venv/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ECSpec.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README_WWI.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us109.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us138.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us157.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us162.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us163.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us168.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us171.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us172.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us173.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us174.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us175.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us176.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us177.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us178.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us179.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us181.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us182.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us183.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us184.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us185.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us186.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us187.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us188.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us189.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us190.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us191.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us193.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us194.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us195.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us196.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us197.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us199.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us201.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us202.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us203.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us204.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us205.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us206.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us207.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us210.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us211.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us212.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us213.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us214.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us215.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us216.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us217.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us218.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us219.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us220.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us221.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us222.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us223.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us224.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us225.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us226.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us227.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us228.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us229.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us230.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us231.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us232.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us233.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us234.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us235.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us236.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us237.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us238.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us239.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us241.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us243.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us244.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us245.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us246.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us247.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us248.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us249.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Breast_Ultrasounds/malignant_png/us250.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/GAN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/training_checkpoints/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/training_checkpoints/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-1.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-1.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-1.index" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-1.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-2.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-2.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-2.index" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-2.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-3.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-3.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-3.index" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/training_checkpoints/ckpt-3.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizations/image_at_epoch_0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/visualizations/image_at_epoch_0001.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,12 +67,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3428" />
+          <entry key="py" value="3440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3428" />
+          <entry key="Python" value="3440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -236,24 +91,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="660">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
-                <marker date="1574196975017" expanded="true" signature="161:636" ph="..." />
+                <marker date="1574237168911" expanded="true" signature="161:636" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="975">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <marker date="1574197050884" expanded="true" signature="336:341" ph="..." />
@@ -270,13 +125,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1266">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="2760">
+              <caret line="184" selection-start-line="184" selection-end-line="184" />
               <folding>
-                <marker date="1574146179136" expanded="true" signature="648:1206" ph="..." />
-                <marker date="1574146179136" expanded="true" signature="1224:1229" ph="..." />
-                <marker date="1574146179136" expanded="true" signature="1475:2075" ph="..." />
-                <marker date="1574146179136" expanded="true" signature="2923:2991" ph="..." />
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1574205135172" expanded="true" signature="648:1206" ph="..." />
+                <marker date="1574205135172" expanded="true" signature="1224:1229" ph="..." />
+                <marker date="1574205135172" expanded="true" signature="1475:2075" ph="..." />
+                <marker date="1574205135172" expanded="true" signature="2923:2991" ph="..." />
               </folding>
             </state>
           </provider>
@@ -313,10 +169,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/visualization.py" />
-        <option value="$PROJECT_DIR$/GAN.py" />
         <option value="$PROJECT_DIR$/recognition.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/data.py" />
+        <option value="$PROJECT_DIR$/GAN.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -496,9 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualization.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/email">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -523,37 +376,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/visualization.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/GAN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1266">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="2760">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
           <folding>
-            <marker date="1574146179136" expanded="true" signature="648:1206" ph="..." />
-            <marker date="1574146179136" expanded="true" signature="1224:1229" ph="..." />
-            <marker date="1574146179136" expanded="true" signature="1475:2075" ph="..." />
-            <marker date="1574146179136" expanded="true" signature="2923:2991" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-            <marker date="1574196975017" expanded="true" signature="161:636" ph="..." />
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1574205135172" expanded="true" signature="648:1206" ph="..." />
+            <marker date="1574205135172" expanded="true" signature="1224:1229" ph="..." />
+            <marker date="1574205135172" expanded="true" signature="1475:2075" ph="..." />
+            <marker date="1574205135172" expanded="true" signature="2923:2991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="975">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <marker date="1574197050884" expanded="true" signature="336:341" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+            <marker date="1574237168911" expanded="true" signature="161:636" ph="..." />
           </folding>
         </state>
       </provider>
