@@ -36,8 +36,10 @@ class generated_img(object):
         ...
 
     def add_to_database(self):
-        generated_img.database['IMG'].append(self.img)
-        generated_img.database['Conf'].append(self.confidence)
+        print(self.img)
+        print(self.confidence)
+        generated_img.database['IMG'].append(self.img.numpy())
+        generated_img.database['Conf'].append(self.confidence.numpy())
         generated_img.database['Epoch'].append(self.epoch)
 
     def save_db(self):
@@ -152,6 +154,7 @@ class GAN(object):
             plt.axis('off')
 
         plt.savefig('visualizations/image_at_epoch_{:04d}.png'.format(epoch))
+        temp.save_db()
 
     def train(self, dataset, epochs):
         checkpoint_dir = 'checkpoints/training_checkpoints'
@@ -181,4 +184,3 @@ class GAN(object):
         # Generate after the final epoch
         # display.clear_output(wait=True)
         self.generate_and_save_images(self.artist, epochs, seed)
-        generated_img.save_db()

@@ -14,6 +14,8 @@ class Data(object):
         self.train_datagen = self.build_train_datagen(rec_directory)
         self.test_datagen = self.build_test_datagen(rec_directory)
         self.data_array = self.build_gen_array(gen_directory)
+        self.original_training_array = ...
+        self.original_val_array = ...
 
 
 
@@ -63,6 +65,9 @@ class Data(object):
 
         arr = arr.reshape((num_imgs, 1, self.target_size[0], self.target_size[1], 1))
         return arr
+
+    def build_original_dataset(self):
+        ...
 
 
 
