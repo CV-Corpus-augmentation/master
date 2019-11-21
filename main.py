@@ -38,7 +38,7 @@ if __name__ =='__main__':
     base_line_imgs = sys.argv[1:][1]
     gen_data = data.Data(imgs_to_generated, base_line_imgs).data_array
     gan_instance = GAN.GAN()
-    gan_instance.train(gen_data, 3)
+    gan_instance.train(gen_data, 300)
 
     send_email()
 
