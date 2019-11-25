@@ -36,9 +36,9 @@ class generated_img(object):
         ...
 
     def add_to_database(self):
-        print(self.img)
-        print(self.confidence)
-        generated_img.database['IMG'].append(self.img.numpy())
+        #(self.img)
+        #print(self.confidence)
+        generated_img.database['IMG'].append(np.array2string(self.img.numpy()))
         generated_img.database['Conf'].append(self.confidence.numpy())
         generated_img.database['Epoch'].append(self.epoch)
 
@@ -138,13 +138,12 @@ class GAN(object):
         # Notice `training` is set to False.
         # This is so all layers run in inference mode (batchnorm).
         predictions = model(test_input, training=False)
-        gen_objects = []
+        count = 0
         for conf, img in zip(self.critic(predictions, training=False), predictions):
+            np.save('Data/generated_imgs/img_at_epoch_' + str(epoch) + '_num_' + str(count), img.numpy())
             temp = generated_img(img, epoch, conf)
             temp.add_to_database()
-
-
-
+            count += 1
 
         fig = plt.figure(figsize=(4, 4))
 
