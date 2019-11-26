@@ -46,7 +46,7 @@ class Data(object):
         return val_gen
 
 
-    def build_gen_array(self, directory, num_imgs=150, batch_size=10):
+    def build_gen_array(self, directory, num_imgs=133, batch_size=10):
         print(directory)
         class_datagen = ImageDataGenerator(
             rescale=1. / 255,
@@ -63,7 +63,9 @@ class Data(object):
         for x in range(int(num_imgs/batch_size) - 1):
             arr = np.append(arr, next(class_gen)[0], axis=0)
 
-        arr = arr.reshape((num_imgs, 1, self.target_size[0], self.target_size[1], 1))
+        print(arr.shape)
+
+        arr = arr.reshape((num_imgs-3, 1, self.target_size[0], self.target_size[1], 1))
         return arr
 
     def build_original_dataset(self):
